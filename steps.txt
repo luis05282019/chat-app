@@ -1,0 +1,29 @@
+https://github.com/johnkeru/demo-client/blob/main/steps.txt
+
+SHORTCUTS
+    CTRL + SPACE = suggestions
+    CTRL + B = close and open tab
+    CTRL + ~ = close and open terminal
+    CTRL + K + W = close all file
+    CTRL + W = close only current file
+    ALT + (arrow up or down) = to move current line into up or down
+
+INSTALLATION
+    npm create vite@latest (under rest api)
+    name: client
+    react
+    javascript
+
+PACKAGE INSTALLATION
+    npm i @mui/material @emotion/react @emotion/styled @mui/icons-material = for component based style with icons
+    npm i react-router-dom = for navigating pages
+    npm i react-hook-form
+    npm i axios = alternative of fetch but better
+    npm i socket.io-client
+
+
+1. get the message from input
+2. when button is click it will emit the event called 'message'
+3. the server will listen to that event ('message') and also emit 
+an event with same key 'message'
+4. the client also listen to that event 'message' and add the message to messages
